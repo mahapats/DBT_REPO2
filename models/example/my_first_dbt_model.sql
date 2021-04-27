@@ -8,7 +8,7 @@
 */
 
 {{ config(
-    materialized="view"
+    materialized="table"
 ) }}
 
 with source_data as (
@@ -19,7 +19,7 @@ with source_data as (
 
 )
 
-select *
+/*select *
 from analytics.customer
 
 /*
