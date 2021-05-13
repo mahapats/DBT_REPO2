@@ -11,4 +11,4 @@ select
     customers.CUST_NAME
 from PROD_SM.ANALYTICS.CUSTOMER
 )
-select * from Cust_STG
+select * from DBT_MAHAPATS.Cust_STG
