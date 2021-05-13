@@ -8,5 +8,5 @@ select
     customers.CUST_ID,
     customers.CUST_NAME
 from PROD_SM.ANALYTICS.CUSTOMER
-
 )
+select * from Cust_STG;
