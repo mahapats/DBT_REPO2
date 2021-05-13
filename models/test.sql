@@ -2,4 +2,9 @@
     materialized='table'
 )}}
 
-create table "DBT_MAHAPATS"."TEST"(C1 number);
+with CUSTOMER as
+select
+    customers.CUST_ID,
+    customers.CUST_NAME,
+from PROD_SM.ANALYTICS.CUSTOMER
+;
