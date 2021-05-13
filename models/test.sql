@@ -2,6 +2,8 @@
     materialized='table'
 )}}
 
+create table "DBT_MAHAPATS"."Cust_STG"(CUST_ID number,CUST_NAME varchar );
+
 with CUSTOMER as
 (
 select
